@@ -21,5 +21,6 @@
 
   function closesession(){
   	IN.User.logout();
-   	return true;
+  	location.href="index.html";
+   	
   }
