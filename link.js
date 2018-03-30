@@ -14,6 +14,7 @@
     
     
 	$('#profiles').css('display','block');
+  $('#sgn').css('display','none');
 	$('#pic').attr('src',member.pictureUrl);
 	$('#fname').text(member.firstName);
 	$('#lname').text(member.lastName);
